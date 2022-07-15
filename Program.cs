@@ -30,8 +30,10 @@
 
             if (length_line1 == length_line2)
                 Console.WriteLine("Both Lines are Equal");
+            else if(length_line1 > length_line2)
+                Console.WriteLine("Line1 is grater than Line2");
             else
-                Console.WriteLine("Both Lines are not Equal");
+                Console.WriteLine("Line2 is greater than Line1");
 
         }
     }
